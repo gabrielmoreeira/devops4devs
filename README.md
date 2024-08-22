@@ -10,3 +10,17 @@
 ```bash
 k3d cluster create meucluster --servers 3 --agents 3 -p "30000:30000@loadbalancer"
 ```
+
+## Aula 4 Terraform
+### Comandos
+```bash
+terraform init
+
+terraform plan
+
+terraform apply
+
+terraform destroy
+
+az vm list-sizes --location eastus --output table
+```
